@@ -48,7 +48,7 @@ export const Badge = (props: Props) => {
             'background-color': props.badgeBackgroundColor ?? '#ffffff',
           }}
         >
-          {props.footer?.text ?? 'Supported by'}
+          {props.footer?.text ?? 'NEPP by'}
           <a
             ref={liteBadge}
             href={props.footer?.companyLink ?? 'https://www.nurie.ai'}
